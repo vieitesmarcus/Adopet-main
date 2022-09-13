@@ -1,0 +1,55 @@
+@use './variaveis' as variaveis;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#root > main.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#root{
+    min-height: 100vh;
+}
+
+.forma1{
+    position: absolute;
+    z-index: 1;
+    width: 340px;
+    @media (min-width: variaveis.$tablet){
+        width: 500px;
+    }
+}
+
+
+
+.forma2{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    min-height: 100%;
+    // border: 1px solid red;
+    transform: rotateY(180deg);
+    @media (min-width: variaveis.$mobile){
+        transform: rotateY(0deg);
+    }
+    &__ilustracao{
+        position: absolute;
+        z-index: 1;
+        top: 240px;
+        @media (min-width: variaveis.$mobile){
+            top: 60px;
+            width: 104px;
+        }
+    }
+}
+
+
+

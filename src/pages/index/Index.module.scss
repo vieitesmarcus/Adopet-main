@@ -1,0 +1,56 @@
+@use "./../../components/base/variaveis" as variaveis;
+
+.fundo {
+  background-color: variaveis.$azul;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+.main {
+  color: variaveis.$branco;
+  height: 500px;
+  padding-top: 100px;
+  text-align: center;
+  z-index: 2;
+  .botoes {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .forma2 {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+
+    .forma2__ilustracao {
+      position: absolute;
+      top: 150px;
+      @media (min-width: variaveis.$tablet) {
+        width: 100px;
+      }
+      z-index: -1;
+    }
+  }
+}
+
+.ilustracao {
+  position: relative;
+  display: flex;
+  min-height: 320px;
+  justify-content: center;
+  margin-top: auto;
+  z-index: 2;
+  .ilustracao__dog {
+    bottom: -20px;
+    position: absolute;
+    z-index: 1;
+    display: block;
+  }
+}

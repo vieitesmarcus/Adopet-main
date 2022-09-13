@@ -1,0 +1,86 @@
+[
+
+    {
+      "img": "assets/pets/Dunga.png",
+      "nome": "Dunga",
+      "idade": "2 anos",
+      "porte": "pequeno",
+      "caracteristica": "Calmo e educado",
+      "cidade": "Rio de Janeiro (RJ)",
+      "telefone": "12 9111-1111"
+    },
+    {
+      "img": "assets/pets/Felicia.png",
+      "nome": "Felícia",
+      "idade": "3 meses",
+      "porte": "pequena",
+      "caracteristica": "Ativa e carinhosa",
+      "cidade": "Nova Iguaçu (RJ)",
+      "telefone": "12 9111-1111"
+    },
+    {
+      "img": "assets/pets/Sirius.png",
+      "nome": "Sirius",
+      "idade": "6 meses",
+      "porte": "grande",
+      "caracteristica": "Ativo e educado",
+      "cidade": "Duque de caxias (RJ)",
+      "telefone": "12 9111-1111"
+    },
+    {
+      "img": "assets/pets/Fiona.png",
+      "nome": "Fiona",
+      "idade": "3 anos",
+      "porte": "pequeno",
+      "caracteristica": "Calma e carinhosa",
+      "cidade": "São Gonçalo (RJ)",
+      "telefone": "12 9111-1111"
+    },
+    {
+      "img": "assets/pets/Sid.png",
+      "nome": "Sid",
+      "idade": "8 meses",
+      "porte": "médio/grande",
+      "caracteristica": "Brincalhão e amável",
+      "cidade": "Rio de Janeiro (RJ)",
+      "telefone": "12 9111-1111"
+    },
+    {
+      "img": "assets/pets/Yoda.png",
+      "nome": "Yoda",
+      "idade": "1 ano",
+      "porte": "médio",
+      "caracteristica": "Ativo e carinhoso",
+      "cidade": "Nova Iguaçu (RJ)",
+      "telefone": "12 9111-1111"
+    },
+    {
+      "img": "assets/pets/Lua.png",
+      "nome": "Lua",
+      "idade": "6 meses",
+      "porte": "médio/grande",
+      "caracteristica": "Brincalhão e amável",
+      "cidade": "Rio de Janeiro (RJ)",
+      "telefone": "12 9111-1111"
+    },
+    {
+      "img": "assets/pets/Amora.png",
+      "nome": "Amora",
+      "idade": "45 dias",
+      "porte": "grande",
+      "caracteristica": "Calma e carinhosa",
+      "cidade": "São Gonçalo (RJ)",
+      "telefone": "12 9111-1111"
+    },
+    {
+      "img": "assets/pets/Zelda.png",
+      "nome": "Zelda",
+      "idade": "6 meses",
+      "porte": "médio/grande",
+      "caracteristica": "Brincalhão e amável",
+      "cidade": "Rio de Janeiro (RJ)",
+      "telefone": "12 9111-1111"
+    }
+
+]
+

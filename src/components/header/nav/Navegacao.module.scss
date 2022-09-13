@@ -1,0 +1,33 @@
+.navegacao{
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    z-index: 1;
+
+    .menu{
+        // border: 1px solid red;
+        display   : flex;
+        gap       : 1rem;
+        list-style: none;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 42px;
+        
+        .menu__item{
+            margin-left: 48px;
+        }
+    }
+
+    .logo{
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px){
+    .navegacao{
+
+        .logo{
+            display: block;
+        }
+    }
+}

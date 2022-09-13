@@ -1,0 +1,48 @@
+@use './../../components/base/variaveis' as variaveis;
+@import '../../components/botao/Botao.module.scss';
+
+.cadastro{
+    
+    text-align: center;
+    padding-top: 3rem;
+
+    .boasVindas{
+        color: variaveis.$azul;
+        padding: 20px 0;
+        // border:1px solid red;
+        z-index: 3;
+        position: relative;
+    }
+
+    .formulario{
+        margin-bottom: 1rem;
+        padding: 50px 0;
+
+        .botao{
+            margin: 20px 0 0 0;
+        }
+    }
+    
+}
+
+.patas{
+    position: relative;
+    top: 0;
+    right: 0;
+    img{
+        position: absolute;
+        top: -73px;
+        right: 0;
+        z-index: 2;
+        width: 140px;
+        @media (min-width: variaveis.$tablet){
+            top: -100px;
+            width: 200px;
+        }
+    }
+}
+
+
+
+
+

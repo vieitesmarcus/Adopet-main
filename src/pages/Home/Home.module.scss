@@ -1,0 +1,94 @@
+@import 'components/base/variaveis';
+
+.perfil{
+    position: relative;
+    img{
+        position: absolute;
+        top: -50px;
+        right: 190px;
+        z-index: 2;
+
+        @media (max-width: $tablet){
+            top: -38px;
+            right: 0px;
+        }
+    }
+}
+
+p.texto{
+    text-align: center;
+    margin-top: 2rem;
+    color: $azul;
+    z-index: 2;
+}
+.lista{
+    display: flex;
+    // border: 1px solid red;
+
+    background: url('../../assets/img/Forma2Left.svg') no-repeat;
+    background-size: auto;
+    background-position: left bottom;
+    @media (min-width: $tablet){
+        background: url('../../assets/img/Forma2.svg') no-repeat;
+        background-position: right center;
+        background-size: 98px;
+    }
+
+    gap:15px;
+    min-width: 344px;
+    padding: 48px 40px;
+    justify-content: center;
+    @media  (max-width: $mobile ){
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    @media (min-width: $mobile){
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    @media (min-width: $tablet){
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 48px 40px;
+    }
+
+    &__informacoes{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: $cinzaClaroBackground;
+        // border: 1px solid red;
+        min-width: 344px;
+        @media (max-width: $tablet){
+            width: 360px;
+            height: 196px;
+        }
+        @media (max-width: $tablet){
+            width: 344px;
+            height: 196px;
+        }
+        @media (max-width: $desktop){
+            width: 363px;
+            height: 196px;
+        }
+
+        &--texto{
+            align-self: flex-start;
+            h3{
+                color: $azul;
+            }
+            p.cidade{
+                margin-top: 20px;
+            }
+        }
+
+    }
+}

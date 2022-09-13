@@ -1,0 +1,11 @@
+@use './../../components/base/variaveis' as variaveis;
+.rodape{
+    align-items: center;
+    background: variaveis.$verde;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    color: white;
+}
