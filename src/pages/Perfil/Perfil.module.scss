@@ -1,9 +1,8 @@
-@import 'components/base/variaveis';
-@import 'components/botao/Botao.module.scss';
-@import 'components/Formulario/Formulario.module.scss';
+@import '../../components/base/variaveis';
+@import '../../components/botao/Botao.module.scss';
+@import '../../components/formulario/Formulario.module.scss';
 
-
-.perfil{
+.perfilUser{
     position: relative;
     img{
         position: absolute;
@@ -16,17 +15,6 @@
             right: 0px;
         }
     }
-    cursor: pointer;
-}
-
-.mensagem{
-    text-align: center;
-    @media (min-width: $tablet){
-        background: url('../../assets/img/Forma2.svg') no-repeat;
-        background-position: right center;
-        margin-top: 5rem;
-        background-size: 98px;
-    }
 }
 p.texto{
     position: relative;
@@ -35,6 +23,16 @@ p.texto{
     color: $azul;
     z-index: 3;
     max-width: 60%;
+}
+
+.perfil{
+    text-align: center;
+    @media (min-width: $tablet){
+        background: url('../../assets/img/Forma2.svg') no-repeat;
+        background-position: right center;
+        margin-top: 5rem;
+        background-size: 98px;
+    }
 }
 
 .formulario{
@@ -54,6 +52,10 @@ p.texto{
         }
         @media (max-width: $tablet){
             width: 90%;
+        }
+
+        p > small{
+            color: red;
         }
 
         input{

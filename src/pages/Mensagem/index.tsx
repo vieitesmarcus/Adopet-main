@@ -1,7 +1,12 @@
 import Formulario from 'components/formulario';
 import styles from './Mensagem.module.scss';
+import user from 'assets/img/usuario.svg';
 export default function Mensagem(){
     return(
+        <>
+        <div className={styles.perfil}>
+            <img src={user} alt="User perfil" />
+        </div>
         <section className={styles.mensagem}>
             <p className={styles.texto}>
                 Envie uma mensagem para a pessoa ou instituição <br />
@@ -13,7 +18,6 @@ export default function Mensagem(){
                     <Formulario for="nome" label="Nome" type="text" id="nome" placeholder="Insira seu nome completo"  />
                     <Formulario for="telefone" label="Telefone" type="text" id="telefone" placeholder="Insira seu telefone e/ou whatsapp"  />
                     <Formulario for="nomeAnimal" label="Nome do animal" type="text" id="nomeAnimal" placeholder="Por qual animal você se interessou?"  />
-                    <Formulario for="mensagem" label="Mensagem" type="text" id="mensagem" placeholder="Escreva sua mensagem" className='ultimo' />
                     <div className={styles.formulario}>
                         <label>Mensagem</label>
                         <textarea name="mensagem" id="mensagem" className={styles.input__mensagem} ></textarea>
@@ -22,5 +26,6 @@ export default function Mensagem(){
                 </form>
             </div>
         </section>
+        </>
     );
 }

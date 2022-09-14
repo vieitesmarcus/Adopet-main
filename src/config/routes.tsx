@@ -1,4 +1,5 @@
 import Mensagem from "pages/Mensagem";
+import Perfil from "pages/Perfil";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "../components/footer";
 import Header from "../components/header";
@@ -19,6 +20,7 @@ export default function AppRouter(){
           <Route path='/login' element={<Login/>} />
           <Route path='/home' element={<Home/>} />
           <Route path='/mensagem' element={<Mensagem/>} />
+          <Route path='/perfil' element={<Perfil/>} />
         </Routes>
           </main>
         <Footer />
